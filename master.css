@@ -49,8 +49,6 @@ ul {
     .content {
           max-width: 50%;
           margin: auto;
-          color: black;
-          padding: 10px;
         }
 
         .text {
@@ -86,4 +84,9 @@ ul {
         .button_site {
             margin-top: 6vh;
             text-align: center;
+        }
+
+        .title {
+          font-size: 5vh;
+          margin-top: 6vh;
         }
