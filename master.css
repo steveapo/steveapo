@@ -1,0 +1,89 @@
+.effect {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0vh;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+    .content {
+          max-width: 50%;
+          margin: auto;
+          color: black;
+          padding: 10px;
+        }
+
+        .text {
+            background: white;
+            text-align: center;
+            margin: auto;
+        }
+
+        .button {
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 6px #999;
+            opacity: 0.7;
+            transition: 0.3s;
+            font-size: 3vh;
+            font-family: Arial;
+            outline: none;
+            border-radius: 16px;
+            border: none;
+            background: black;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 1;
+        }
+
+        .button:active {
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .button_site {
+            margin-top: 6vh;
+            text-align: center;
+        }
