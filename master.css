@@ -60,6 +60,7 @@ ul {
         .button {
             text-align: center;
             cursor: pointer;
+            margin-bottom: 5vh;
             box-shadow: 0 6px #999;
             opacity: 0.7;
             transition: 0.3s;
