@@ -1,9 +1,9 @@
 function MainMenu() {
-    location.href = "../Mains/main_menu.html";
+    location.href = "../main_menu.html";
   }
 
   function Achievements() {
-      location.href = "../Mains/achievements.html";
+      location.href = "../achievements.html";
   }
 
   function Chapters(i) {
